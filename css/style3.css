@@ -1,0 +1,72 @@
+/* style3.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Khung xanh ngọc nhạt giống hệt page2 của bạn */
+.container {
+    background-color: #add8e6; 
+    width: 90%; 
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Tiêu đề căn giữa và màu xanh đậm */
+.title {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #00008B; /* Màu xanh nước biển đậm (DarkBlue) */
+    text-align: center; /* CĂN GIỮA CHỮ */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Chữ màu xanh lá đậm giống page2 */
+.label {
+    display: block;
+    color: #006400; 
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+
+/* Các ô nhập liệu dài 100% khung */
+.form-control {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.gender-box {
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* Nút bấm căn lề trái theo mẫu page2, nhưng bạn có thể chỉnh lại */
+#sbRegister {
+    background-color: #4169e1; 
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+#sbRegister:hover {
+    background-color: #1e90ff;
+}
