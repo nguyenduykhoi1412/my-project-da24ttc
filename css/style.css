@@ -1,0 +1,72 @@
+/* 1. Căn chỉnh tổng thể */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Font hiện đại */
+    background-color: #f4f7f6; /* Màu nền xám dịu mắt */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* 2. Làm đẹp các bảng (Table) */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Gộp viền cho thanh mảnh */
+    background: #fff;
+    border-radius: 10px; /* Bo góc bảng */
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Đổ bóng chuyên nghiệp */
+    border: none !important; /* Xóa viền đen cũ */
+    margin-bottom: 25px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #eee !important; /* Viền mờ tinh tế */
+}
+
+th {
+    background-color: #3498db; /* Màu xanh dương làm chủ đạo */
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Trang trí khung cho ảnh đại diện */
+img {
+    /* 1. Tạo độ dày, kiểu dáng và màu sắc cho khung */
+    border: 5px solid #3498db; 
+    
+    /* 2. Khoảng cách giữa ảnh và khung (tạo hiệu ứng viền kép) */
+    padding: 2px;
+    background-color: white;
+
+    /* 3. Bo góc khung (50% là hình tròn, 10-20px là hình vuông bo góc) */
+    border-radius: 35px; 
+
+    /* 4. Đổ bóng cho khung ảnh trông chuyên nghiệp hơn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    /* 5. Hiệu ứng khi rê chuột vào khung ảnh */
+    transition: all 0.10s ease;
+}img:hover {
+    border-color: #e74c3c; /* Đổi màu khung khi di chuột vào */
+    transform: scale(1.11); /* Phóng to nhẹ cả khung và ảnh */
+
+/* 4. Làm nổi bật các tiêu đề */
+h1 {
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: #2980b9;
+    border-left: 5px solid #2980b9; /* Tạo vạch màu bên trái tiêu đề */
+    padding-left: 10px;
+}
+
+/* 5. Danh sách sở thích */
+ul {
+    background: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
