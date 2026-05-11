@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>page6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style3.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom mb-4">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Flower Shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Trang Chủ</a></li>
+            <li class="nav-item"><a class="nav-link" href="page1.html">Thông Tin Cá Nhân</a></li>
+            <li class="nav-item"><a class="nav-link" href="page2.html">Đăng Nhập</a></li>
+            <li class="nav-item"><a class="nav-link" href="page3.html">Phiếu Đăng Ký CLB</a></li>
+            <li class="nav-item"><a class="nav-link" href="page4.html">Xuất Hóa Đơn</a></li>
+            <li class="nav-item"><a class="nav-link" href="page5.html">Bảng Cửu Chương</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="page6.html">Danh Sách Sản Phẩm</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container pb-5">
+      <div class="mb-4">
+        <h1 class="fw-bold">Danh Sách Sản Phẩm</h1>
+        <p class="text-muted">Nhấn vào nút chi tiết để chuyển sang trang sản phẩm.</p>
+      </div>
+      <div id="product-list" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"></div>
+    </div>
+
+    <script src="../js/lib.js"></script>
+    <script>
+      productList.forEach(function(product) {
+        addProduct(product.id, product.name, product.price, product.image, product.productLink);
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
